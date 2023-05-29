@@ -13,7 +13,7 @@ return (
 <h5 className='text-light'>Software Engineer </h5>
 <CTA/>
 <div className='my_image'>
-<img src={me} alt='my image'/>
+<img src= {me} alt='my image'/>
 </div>
 <a href='#contact' className='scroll__down'>Scroll down</a>
 </div>
