@@ -85,33 +85,37 @@
  
     .about__me p{ 
         margin: 1rem 0 1.5rem; 
+        border: 1px solid var(--color-light);
     } 
      
 } 
  
 @media only screen and (max-width: 600px) { 
      
-.about__container{ 
-    grid-template-columns: 1fr; 
-    gap: 0; 
-} 
- 
-.about__me{ 
-    width: 65%; 
-    margin: 0 auto 3rem; 
-} 
- 
-.about__cards{ 
-    grid-template-columns: 1fr 1fr; 
-    gap: 1rem; 
-} 
- 
-.about__me__content{ 
-    text-align: center; 
-} 
- 
-.about__me__content p{ 
-    margin: 1.5rem 0; 
-    } 
+        .about__container{ 
+            grid-template-columns: 1fr; 
+            gap: 0; 
+        } 
+        
+        .about__me{ 
+            width: 65%; 
+            margin: 0 auto 3rem; 
+        } 
+        
+        .about__cards{ 
+            grid-template-columns: 1fr 1fr; 
+            gap: 1rem; 
+        } 
+        
+        .about__me__content{ 
+            text-align: center; 
+        } 
+        
+        .about__me__content p{ 
+            margin: 1.5rem 0; 
+            }
+            .about__me__image{
+                width: 200px;
+            }    
  
 }

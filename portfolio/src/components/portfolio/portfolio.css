@@ -56,6 +56,18 @@
     .portfolio__container {
       grid-template-columns: 1fr;
       gap: 1rem;
+      width: 60%;
+      margin: 7px;
     }
-  }
-  
+      .portfolio__item {
+        width: 350px;
+        display: block;
+      }
+      .portfolio__item__image{
+        width: 200px;
+        border-radius: 1.5rem;
+        margin-left: 5px;
+        
+      }
+      
+  }  

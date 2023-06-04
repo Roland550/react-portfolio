@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import './CTA'
 import CTA from './CTA' //here we import the CTA component inside our header
-import me from '../../assets/roland.jpg'
+import me from '../../assets/rrrr.png'
 
 export const Header = () => {
 return (

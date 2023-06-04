@@ -13,6 +13,7 @@ header{
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    bottom: 30px;
     }
     .header__social{
     display: flex;
@@ -31,14 +32,18 @@ header{
     background: var(--color-primary);
     }
     .my_image{
-    background: transparent;
+    background: var(--color-primary);
     width: 22rem;
-    Height:35rem;
-    position: absolute;
+    Height: 100vh;
+    position: relative;
     left: calc(50% - 11rem); /*this help to place the image to the middle of screen*/
     margin-top: 4rem;
     border-radius: 60%;
-    overflow: hidden;
+    flex-direction: column;
+    bottom: 4rem;
+
+
+    
     
     }
     .scroll__down{
@@ -57,11 +62,28 @@ header{
     }
     }
     @media screen and(max-width:600px) {
-    header{
-    height:100vh
-    }
-    .header__social, .scroll__down{
-    display: none;
-    }
+        header{
+        height:100vh
+        }
+        .header__social, .scroll__down{
+        display: none;
+        }
+        .my_image{
+            
+            width: 22rem;
+            Height:35rem;
+            position: absolute;
+            left: 50%;
+            right: 50%; /*this help to place the image to the middle of screen*/
+            margin-top: 4rem;
+            border-radius: 60%;
+        
+            
+            
+            }
+            img{
+                width: 200px;
+                height: 600px;
+            }
     }
     

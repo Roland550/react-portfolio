@@ -8,8 +8,8 @@ const Contact = () => {
         e.preventDefault();
     
         emailjs
-           .sendForm('service_45nvs3m',
-            'template_u6yfpq3',
+           .sendForm('service_q599ef9',
+            'template_96v6h9h',
              form.current,
               'qupMiJMZy7qFP2m7C')
           .then((result) => {
@@ -26,10 +26,10 @@ const Contact = () => {
             <div className='cad'>
                 <h2>Contact us</h2>
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" placeholder='Full name ' required />
-                    <input type="email" placeholder='User_email ' required />
+                    <input type="text" placeholder='Full name 'name='fullName' required />
                     <input type="text" placeholder='Subjet' name='subjet' required />
-
+                    <input type="text" name='phone' placeholder='Phone Number' />
+                    <input type="email" placeholder='User_email 'name='email' required />
                     <textarea name="message"  cols="30" rows="10">
 
                     </textarea>

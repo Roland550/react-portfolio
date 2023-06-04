@@ -53,6 +53,6 @@
     } 
  
     .container.testimonials__container{ 
-        width:var(--container--width-sm) 
+        width:90% 
     } 
 }
